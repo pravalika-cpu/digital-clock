@@ -1,7 +1,7 @@
-var day=["sunday","monday","tuesday","wednesday","thursday","friday","saturda"]
+var Day=["sunday","monday","tuesday","wednesday","thursday","friday","saturda"]
 var myDate=new Date();
 var Day=myDate.getDay();
-document.write("today is:"+day[day])
+document.write("today is:"+Day[Day])
 var hrs=myDate.getHours();
 var hr=(hrs)%12
 var min=myDate.getMinutes()
