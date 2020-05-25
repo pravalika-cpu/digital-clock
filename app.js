@@ -13,5 +13,5 @@ else if(hrs>=12&&hrs<=17){
     document.write("good afternoon"+"time is"+hr+":"+min+"P.M")
 }
 else{
-    document.write("good evenging"+"time is"+hr+"min"+"P.M")
+    document.write("good evenging"+"time is"+hr+":"+min+"P.M")
 }
